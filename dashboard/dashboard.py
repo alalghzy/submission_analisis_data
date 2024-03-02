@@ -2,10 +2,11 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
+from datetime import datetime
 
 # Load data
-day_df = pd.read_csv("https://raw.githubusercontent.com/alalghzy/belajar-analisis-data-dengan-python/main/dashboard/day_data.csv")
-hour_df = pd.read_csv("https://raw.githubusercontent.com/alalghzy/belajar-analisis-data-dengan-python/main/dashboard/hour_data.csv")
+day_df = pd.read_csv("https://raw.githubusercontent.com/alalghzy/submission_analisis_data/main/dashboard/day_data.csv")
+hour_df = pd.read_csv("https://raw.githubusercontent.com/alalghzy/submission_analisis_data/main/dashboard/hour_data.csv")
 
 custom_palette = ['#d0deec', '#97b2cc', '#8a9296']
 bulan = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
